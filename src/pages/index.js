@@ -4,9 +4,9 @@ import { locationsAreEqual } from 'history';
 
 const IndexPage = () => (
   <div>
-    <h1>Hi people</h1>
+    <h1 className="h1">Hi people</h1>
     
-    <b>Welcome to your new Gatsby site.</b>
+    <h3>Welcome to your new Gatsby site.</h3>
     
     <p>
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium

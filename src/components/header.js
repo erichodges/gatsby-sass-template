@@ -9,12 +9,12 @@ const Header = ({ siteTitle }) => (
     }}
   >
     <div>
-      <h1 style={{ margin: 0 }}>
+      <h1 className="logo">
         <Link
           to="/"
           style={{
             color: 'black',
-            textDecoration: 'none'
+            textDecoration: 'none',
           }}
         >
           {siteTitle}
