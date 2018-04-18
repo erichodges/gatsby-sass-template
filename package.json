@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-test",
-  "description": "Gatsby testing",
+  "name": "gatsby-sass-template",
+  "description": "Gatsby sass template",
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>, and Eric Hodges",
   "dependencies": {
