@@ -4,6 +4,10 @@ import { locationsAreEqual } from 'history';
 
 const IndexPage = () => (
   <div>
+    <div className="nav">
+      <h2>Test new nav</h2>
+
+    </div>
     <h2 className="h1">Main Heading</h2>
     
       <h3>Welcome to your new Gatsby site.</h3>
