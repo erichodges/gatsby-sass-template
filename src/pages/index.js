@@ -5,7 +5,7 @@ import { locationsAreEqual } from 'history';
 const IndexPage = () => (
   <div>
     <div className="nav">
-      <h2>Test new nav</h2>
+      <h1>Nav logo</h1>
 
     </div>
     <h2 className="h1">Main Heading</h2>
