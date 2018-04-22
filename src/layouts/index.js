@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import Nav from '../components/nav'
+import Header from '../components/header'
 
 
 // import Header from '../components/header'
@@ -17,7 +17,7 @@ const Layout = ({ children, data }) => (
       ]}
     />
     <div>
-      <Nav />
+      <Header />
     </div>
     
     {/* <Header siteTitle={data.site.siteMetadata.title} /> */}

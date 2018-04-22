@@ -1,27 +1,23 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: 'transparent',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div>
+const Header = () => (
+  <div>
+    <div className="header">
       <h1 className="logo">
         <Link
-          to="/"
+          to="/" 
           style={{
             color: 'black',
             textDecoration: 'none',
           }}
-        >
-          {siteTitle}
+          >
+          Site Logo
         </Link>
       </h1>
     </div>
   </div>
 )
+
 
 export default Header
