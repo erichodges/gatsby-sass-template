@@ -6,13 +6,13 @@ const IndexPage = () => (
   <div>
     <div className="nav">
       <h1>Nav logo</h1>
-
+      
     </div>
     <h2 className="h1">Main Heading</h2>
     
       <h3>Welcome to your new Gatsby site.</h3>
 
-    <p>
+    <p>      
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium
       rerum delectus est soluta ullam unde eius dolorum expedita sapiente,
       eveniet, nulla harum? Quidem, molestias nisi! Est, ad at! Optio,
