@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import Nav from '../components/nav'
+
 
 // import Header from '../components/header'
 import './sass/main.scss'
@@ -14,6 +16,10 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
+    <div>
+      <Nav />
+    </div>
+    
     {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
     <div>
       {children()}

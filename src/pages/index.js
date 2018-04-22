@@ -3,11 +3,7 @@ import Link from 'gatsby-link'
 import { locationsAreEqual } from 'history';
 
 const IndexPage = () => (
-  <div>
-    <div className="nav">
-      <h1>Nav logo</h1>
-      
-    </div>
+  <div>    
     <h2 className="h1">Main Heading</h2>
     
       <h3>Welcome to your new Gatsby site.</h3>
