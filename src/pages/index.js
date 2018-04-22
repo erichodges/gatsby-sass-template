@@ -16,8 +16,7 @@ const IndexPage = () => (
       Accusantium rerum delectus est soluta ullam unde eius dolorum expedita
       sapiente, eveniet, nulla harum? Quidem, molestias nisi! Est, ad at! Optio,
       doloremque.
-    </p>
-    <Link to="/page-2/">Go to page 2</Link>
+    </p>    
   </div>
 )
 
