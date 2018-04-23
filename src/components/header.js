@@ -25,13 +25,13 @@ const Header = () => (
       </div>
       <div className="header-links">          
         <Link to="page-2" className="header-page-link">
-          <div className="header-links__page">Page 2</div>
+          <div className="header-links__page">Products</div>
         </Link>
         <Link to="page-3" className="header-page-link">
-          <div className="header-links__page">Page 3</div>
+          <div className="header-links__page">About</div>
         </Link>
         <Link to="page-4" className="header-page-link">
-          <div className="header-links__page">Page 4</div>
+          <div className="header-links__page">Contact</div>
         </Link>                    
       </div>
 

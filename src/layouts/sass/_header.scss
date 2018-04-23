@@ -1,5 +1,6 @@
 .logo {
   font-family: 'Roboto', sans-serif; 
+  
 }
 
 
@@ -17,6 +18,7 @@
 .hamburger-logo {
   display: flex;
   
+  
 }
 
 
@@ -28,18 +30,39 @@
 
   &__page {
     padding: .5rem;
+    
+    &:hover {
+      background-color: var(--color-grey-light-2);
+    }
+
+    @media only screen and (max-width: $bp-small){
+      visibility: hidden;
+      display: none;
+    }
   }
 }
 
 .header-page-link {
-  text-decoration: none;
+  text-decoration-line: none;
+  color: black;
 }
 
 .hamburger-icon {
-  display: flex;
-  align-self: center;
-  padding-right: 1rem;
-  
-  
+  visibility: hidden;
+  display: none;
+
+  @media only screen and (max-width: $bp-small) {      
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    cursor: pointer;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    visibility: visible;
+  }
+
+  // @media only screen and (min-width: $bp-small) {
+  //   margin: 0;
+  // }
 }
 
