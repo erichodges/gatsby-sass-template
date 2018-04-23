@@ -14,6 +14,12 @@
   border-bottom: 1px solid;
 }
 
+.hamburger-logo {
+  display: flex;
+  
+}
+
+
 .header-links {
   display: flex;
   font-family: 'Roboto', sans-serif;
@@ -29,4 +35,11 @@
   text-decoration: none;
 }
 
+.hamburger-icon {
+  display: flex;
+  align-self: center;
+  padding-right: 1rem;
+  
+  
+}
 
