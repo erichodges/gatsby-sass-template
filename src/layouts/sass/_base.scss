@@ -28,13 +28,13 @@ html {
 
 }
 
-// .container {  
-//   background: url(img/sleep_loss_large.jpg) no-repeat center center fixed; 
-//   -webkit-background-size: cover;
-//   -moz-background-size: cover;
-//   -o-background-size: cover;
-//   background-size: cover;
-// }
+.container {  
+  background-image: url(/sleep_loss_large.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 body {
   font-family: 'Lato', sans-serif; 

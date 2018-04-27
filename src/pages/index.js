@@ -1,6 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import { locationsAreEqual } from 'history';
+import sleep_loss_large from '../../public/sleep_loss_large.jpg';
+
+console.log(sleep_loss_large);
 
 const IndexPage = () => (
   <container className="container">
